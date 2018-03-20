@@ -108,8 +108,10 @@ h4 {
     width: 40px;
     height: 40px;
     margin-left: 20px;
-    padding-left: 5px;
     padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 .iconos{
    display: flex;
@@ -120,8 +122,67 @@ h4 {
     width: 100%;
     height: 150px;
 }
+.side{
+    width: 500px;
+    height: 1200px;
+}
 .juosta {
     width: 500px;
     position: absolute;
     z-index: -1;
+}
+.software{
+    width:100%;
+    text-align: center;
+    padding-top: 80px;
+}
+.software h3{
+    width: 100%;
+    text-align: left;
+    padding-left: 65px;
+    font-family: "Avenir LT Std 35 Light";
+    color: #ffffff;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+.softs{
+    width: 300px;
+    padding-top: 65px;
+    padding-left: 10px;
+}
+.barai{
+    width: 430px;
+    padding-left: 90px;
+    padding-top: 40px;
+    text-align: left;
+}
+label {
+    font-family: "Avenir LT Std 35 Light";
+    color: #ffffff;
+    font-size: 20px;
+    display: block;
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+.progress{
+    height: 25px !important;
+    border-radius: unset !important;
+    background-color: #142028 !important;
+}
+.progress-bar{
+    background-color: #374151 !important;
+}
+.Lang{
+    width:100%;
+    text-align: center;
+    padding-top: 70px;
+}
+.Lang h3{
+    width: 100%;
+    text-align: left;
+    padding-left: 65px;
+    font-family: "Avenir LT Std 35 Light";
+    color: #ffffff;
+    font-size: 40px;
+    letter-spacing: 1px;
 }
