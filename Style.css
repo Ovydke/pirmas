@@ -1,5 +1,5 @@
 @font-face{
-    font-family: "Avenir LT Std 35 Light";
+    font-family: "Avenir LT Std 35 Light" ;
     src: url('AvenirLTStd Light.otf'), url('AvenirLTStd Light.otf') format('otf');}
 
 h4 {
@@ -124,7 +124,8 @@ h4 {
 }
 .side{
     width: 500px;
-    height: 1200px;
+    height: 1150px;
+    float: left;
 }
 .juosta {
     width: 500px;
@@ -185,4 +186,91 @@ label {
     color: #ffffff;
     font-size: 40px;
     letter-spacing: 1px;
+}
+.blok1{
+    width: 625px;
+    height: 170px;
+    float: right;
+    display: inline-block;
+    z-index: -1;
+}
+.blok1 img {
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+    float: left;
+}
+#suit{
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+    float: left;
+}
+.tekstas h1 {
+    float: left;
+    margin-top: 25px;
+    font-family: "Avenir LT Std 35 Light";
+    color: #000000;
+    font-size: 38px;
+    padding-left: 35px;
+    text-transform: uppercase;
+}
+.tekstas{
+    width: 625px;
+    height: 1150px;
+    float: left;
+    display: inline-block;
+    padding-left: 700px;
+    padding-top: 60px;
+}
+.tekstas p {
+    font-family: "Avenir LT Std 35 Light";
+    width: 100%;
+    float: left;
+    max-width: 95%;
+    padding-top: 8px;
+}
+.blok2 {
+    width: 625px;
+    height: 300px;
+    float: right;
+    padding-top: 10px;
+}
+.parag{
+    width: 650px;
+    height: 100px;
+    float: left;
+    padding-top: 30px;
+}
+.parag h2 {
+    font-family: "Avenir LT Std 35 Light";
+    font-weight: bolder;
+    font-size: 17px;
+}
+.parag p {
+    font-family: "Avenir LT Std 35 Light";
+    font-size: 17px;
+}
+.year {
+    width: 110px;
+    height: 100%;
+    text-align: center;
+    float: left;
+}
+.year img {
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+}
+.descrip {
+    width: 540px;
+    height: 100%;
+    float: left;
+    padding-left: 45px;
+}
+.blok3 {
+    width: 625px;
+    height: 300px;
+    float: right;
+    padding-top: 120px;
 }
