@@ -1,276 +1,442 @@
 @font-face{
     font-family: "Avenir LT Std 35 Light" ;
     src: url('AvenirLTStd Light.otf'), url('AvenirLTStd Light.otf') format('otf');}
+/*@media only screen  and (min-width : 1200px) {*/
+    h4 {
+        font-family: "Avenir LT Std 35 Light" !important;
+        text-transform: uppercase;
+        text-space: 1px;
+        text-decoration-color: #ffffff;
+        color: #ecffed !important;
+    }
 
-h4 {
-    font-family: "Avenir LT Std 35 Light" !important;
-    text-transform: uppercase;
-    text-space: 1px;
-    text-decoration-color: #ffffff;
-    color: #ecffed !important;
-}
-#headas {
-    position: absolute;
-    height: 476.5px;
-    left: 0px;
-    top: 0px;
-    z-index: -2;
-}
-.avatar{
-    width: 70%;
-    float: left;
-    display-inline: block;
-    text-align: left;
-}
-.avatar img{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    border: 10px solid #F6783F;
-    margin-top: 90px;
-    margin-left: 110px;
-    float: left;
-    z-index: 1;
-}
-#name {
-    position: absolute;
-    left: 218px;
-    top: 90px;
-    z-index: -1;
-    width: 20%;
-}
-.avatar h5{
-    font-family: "Avenir LT Std 35 Light" !important;
-    color: #ffffff;
-    background-color: #F6783F;
-    text-transform: uppercase;
-    font-size: 30px;
-    width: 350px;
-    height: 65px;
-    text-align: center;
-    display-inline: block;
-    letter-spacing: 1px;
-    float: left;
-    padding-top: 15px;
-    z-index: -1;
-}
-.avatar h6{
-    font-family: "Avenir LT Std 35 Light" !important;
-    color: #ffffff;
-    background-color: #F6783F;
-    text-transform: uppercase;
-    font-size: 15px;
-    width: 320px;
-    height: 30px;
-    margin-top: 20px;
-    text-align: center;
-    display-inline: block;
-    letter-spacing: 1px;
-    padding-top: 6px;
-    padding-left: 90px;
-    float: left;
-    z-index: -1;
-}
+    #headas {
+        position: absolute;
+        height: 476.5px;
+        left: 0px;
+        top: 0px;
+        z-index: -2;
+    }
 
-.contacts{
-    width: 30%;
-    float: left;
-    display-inline: block;
-}
-.contacts h4 {
-    font-size: 30px;
-    letter-spacing: 1px;
-    padding-top: 80px;
-    padding-left: 13px;
-}
-.info h3{
-    font-family: "Avenir LT Std 35 Light";
-    color: #ffffff;
-    font-size: 15px;
-    display-inline:block;
-    padding-left: 60px;
-    padding-top: 13px;
+    .avatar {
+        width: 70%;
+        float: left;
+        text-align: left;
+    }
 
-}
-.info i {
-    float: left;
-    padding: 2px;
-}
-.info {
-    padding: 10px;
-    height: 70px;
-}
-.iconos i{
-    border: 1px solid #ffffff;
-    border-radius: 50%;
-    color: #4C566B;
-    background-color: #ffffff;
-    width: 40px;
-    height: 40px;
-    margin-left: 20px;
-    padding-top: 5px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-.iconos{
-   display: flex;
-    justify-content: flex-end;
-    padding-right: 170px;
-    padding-top: 45px;
-    margin-right: 50px;
-    width: 100%;
-    height: 150px;
-}
-.side{
-    width: 500px;
-    height: 1150px;
-    float: left;
-}
-.juosta {
-    width: 500px;
-    position: absolute;
-    z-index: -1;
-}
-.software{
-    width:100%;
-    text-align: center;
-    padding-top: 80px;
-}
-.software h3{
-    width: 100%;
-    text-align: left;
-    padding-left: 65px;
-    font-family: "Avenir LT Std 35 Light";
-    color: #ffffff;
-    font-size: 40px;
-    letter-spacing: 1px;
-}
-.softs{
-    width: 300px;
-    padding-top: 65px;
-    padding-left: 10px;
-}
-.barai{
-    width: 430px;
-    padding-left: 90px;
-    padding-top: 40px;
-    text-align: left;
-}
-label {
-    font-family: "Avenir LT Std 35 Light";
-    color: #ffffff;
-    font-size: 20px;
-    display: block;
-    padding-bottom: 5px;
-    padding-top: 10px;
-}
-.progress{
-    height: 25px !important;
-    border-radius: unset !important;
-    background-color: #142028 !important;
-}
-.progress-bar{
-    background-color: #374151 !important;
-}
-.Lang{
-    width:100%;
-    text-align: center;
-    padding-top: 70px;
-}
-.Lang h3{
-    width: 100%;
-    text-align: left;
-    padding-left: 65px;
-    font-family: "Avenir LT Std 35 Light";
-    color: #ffffff;
-    font-size: 40px;
-    letter-spacing: 1px;
-}
-.blok1{
-    width: 625px;
-    height: 170px;
-    float: right;
-    display: inline-block;
-    z-index: -1;
-}
-.blok1 img {
-    height: 50px;
-    width: 50px;
-    margin-top: 20px;
-    float: left;
-}
-#suit{
-    height: 50px;
-    width: 50px;
-    margin-top: 20px;
-    float: left;
-}
-.tekstas h1 {
-    float: left;
-    margin-top: 25px;
-    font-family: "Avenir LT Std 35 Light";
-    color: #000000;
-    font-size: 38px;
-    padding-left: 35px;
-    text-transform: uppercase;
-}
-.tekstas{
-    width: 625px;
-    height: 1150px;
-    float: left;
-    display: inline-block;
-    padding-left: 700px;
-    padding-top: 60px;
-}
-.tekstas p {
-    font-family: "Avenir LT Std 35 Light";
-    width: 100%;
-    float: left;
-    max-width: 95%;
-    padding-top: 8px;
-}
-.blok2 {
-    width: 625px;
-    height: 300px;
-    float: right;
-    padding-top: 10px;
-}
-.parag{
-    width: 650px;
-    height: 100px;
-    float: left;
-    padding-top: 30px;
-}
-.parag h2 {
-    font-family: "Avenir LT Std 35 Light";
-    font-weight: bolder;
-    font-size: 17px;
-}
-.parag p {
-    font-family: "Avenir LT Std 35 Light";
-    font-size: 17px;
-}
-.year {
-    width: 110px;
-    height: 100%;
-    text-align: center;
-    float: left;
-}
-.year img {
-    height: 50px;
-    width: 50px;
-    margin-top: 10px;
-}
-.descrip {
-    width: 540px;
-    height: 100%;
-    float: left;
-    padding-left: 45px;
-}
-.blok3 {
-    width: 625px;
-    height: 300px;
-    float: right;
-    padding-top: 120px;
+    .avatar img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border: 10px solid #F6783F;
+        margin-top: 90px;
+        margin-left: 110px;
+        float: left;
+        z-index: 1;
+    }
+
+    #name {
+        position: absolute;
+        left: 218px;
+        top: 90px;
+        z-index: -1;
+        width: 20%;
+    }
+
+    .avatar h5 {
+        font-family: "Avenir LT Std 35 Light" !important;
+        color: #ffffff;
+        background-color: #F6783F;
+        text-transform: uppercase;
+        font-size: 30px;
+        width: 350px;
+        height: 65px;
+        text-align: center;
+        display-inline: block;
+        letter-spacing: 1px;
+        float: left;
+        padding-top: 15px;
+        z-index: -1;
+    }
+
+    .avatar h6 {
+        font-family: "Avenir LT Std 35 Light" !important;
+        color: #ffffff;
+        background-color: #F6783F;
+        text-transform: uppercase;
+        font-size: 15px;
+        width: 320px;
+        height: 30px;
+        margin-top: 20px;
+        text-align: center;
+        display-inline: block;
+        letter-spacing: 1px;
+        padding-top: 6px;
+        padding-left: 90px;
+        float: left;
+        z-index: -1;
+    }
+
+    .contacts {
+        width: 300px;
+        float: left;
+        display: inline-block;
+    }
+
+    .contacts h4 {
+        font-size: 30px;
+        letter-spacing: 1px;
+        padding-top: 80px;
+        padding-left: 13px;
+    }
+
+    .info h3 {
+        font-family: "Avenir LT Std 35 Light";
+        color: #ffffff;
+        font-size: 15px;
+        display-inline: block;
+        padding-left: 60px;
+        padding-top: 13px;
+
+    }
+
+    .info i {
+        float: left;
+        padding: 2px;
+    }
+
+    .info {
+        padding: 10px;
+        height: 70px;
+    }
+
+    .iconos i {
+        border: 1px solid #ffffff;
+        border-radius: 50%;
+        color: #4C566B;
+        background-color: #ffffff;
+        width: 40px;
+        height: 40px;
+        margin-left: 20px;
+        padding-top: 5px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .iconos {
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 170px;
+        padding-top: 45px;
+        margin-right: 50px;
+        width: 100%;
+        height: 150px;
+    }
+
+    .side {
+        width: 500px;
+        height: 1150px;
+        float: left;
+    }
+
+    .juosta {
+        width: 500px;
+        position: absolute;
+        z-index: -1;
+    }
+
+    .software {
+        width: 100%;
+        text-align: center;
+        padding-top: 80px;
+    }
+
+    .software h3 {
+        width: 100%;
+        text-align: left;
+        padding-left: 65px;
+        font-family: "Avenir LT Std 35 Light";
+        color: #ffffff;
+        font-size: 40px;
+        letter-spacing: 1px;
+    }
+
+    .softs {
+        width: 300px;
+        padding-top: 65px;
+        padding-left: 10px;
+    }
+
+    .barai {
+        width: 430px;
+        padding-left: 90px;
+        padding-top: 40px;
+        text-align: left;
+    }
+
+    label {
+        font-family: "Avenir LT Std 35 Light";
+        color: #ffffff;
+        font-size: 20px;
+        display: block;
+        padding-bottom: 5px;
+        padding-top: 10px;
+    }
+
+    .progress {
+        height: 25px !important;
+        border-radius: unset !important;
+        background-color: #142028 !important;
+    }
+
+    .progress-bar {
+        background-color: #374151 !important;
+    }
+
+    .Lang {
+        width: 100%;
+        text-align: center;
+        padding-top: 70px;
+    }
+
+    .Lang h3 {
+        width: 100%;
+        text-align: left;
+        padding-left: 65px;
+        font-family: "Avenir LT Std 35 Light";
+        color: #ffffff;
+        font-size: 40px;
+        letter-spacing: 1px;
+    }
+
+    .blok1 {
+        width: 625px;
+        height: 170px;
+        float: right;
+        display: inline-block;
+        z-index: -1;
+    }
+
+    .blok1 img {
+        height: 50px;
+        width: 50px;
+        margin-top: 20px;
+        float: left;
+    }
+
+    #suit {
+        height: 50px;
+        width: 50px;
+        margin-top: 20px;
+        float: left;
+    }
+
+    .tekstas h1 {
+        float: left;
+        margin-top: 25px;
+        font-family: "Avenir LT Std 35 Light";
+        color: #000000;
+        font-size: 38px;
+        padding-left: 35px;
+        text-transform: uppercase;
+    }
+
+    .tekstas {
+        width: 625px;
+        height: 1150px;
+        float: left;
+        display: inline-block;
+        padding-left: 700px;
+        padding-top: 60px;
+    }
+
+    .tekstas p {
+        font-family: "Avenir LT Std 35 Light";
+        width: 100%;
+        float: left;
+        max-width: 95%;
+        padding-top: 8px;
+    }
+
+    .blok2 {
+        width: 625px;
+        height: 300px;
+        float: right;
+        padding-top: 10px;
+    }
+
+    .parag {
+        width: 650px;
+        height: 100px;
+        float: left;
+        padding-top: 60px;
+    }
+
+    .parag h2 {
+        font-family: "Avenir LT Std 35 Light";
+        font-weight: bolder;
+        font-size: 17px;
+    }
+
+    .parag p {
+        font-family: "Avenir LT Std 35 Light";
+        font-size: 17px;
+    }
+
+    .year {
+        width: 110px;
+        height: 100%;
+        text-align: center;
+        float: left;
+    }
+
+    .year img {
+        height: 50px;
+        width: 50px;
+        margin-top: 10px;
+    }
+
+    .descrip {
+        width: 540px;
+        height: 100%;
+        float: left;
+        padding-left: 45px;
+    }
+
+    .blok3 {
+        width: 625px;
+        height: 300px;
+        float: right;
+        padding-top: 190px;
+    }
+
+    .Education {
+        padding-top: 10px;
+        width: 100%;
+        height: 200px;
+        float: right;
+    }
+
+    #hat {
+        width: 50px;
+        height: 50px;
+        float: left;
+    }
+
+    .Education h1 {
+        font-family: "Avenir LT Std 35 Light";
+        color: #000000;
+        font-size: 38px;
+        padding-left: 35px;
+        text-transform: uppercase;
+        float: left;
+    }
+
+    #pavad {
+        padding-left: 580px;
+    }
+
+    .Eilute {
+        height: 350px;
+        width: 100%;
+        padding-top: 90px;
+        padding-left: 100px;
+    }
+
+    #tabai {
+        width: 130px;
+        height: 125px;
+        margin-left: 200px;
+        z-index: 1;
+    }
+
+    #eilute {
+        padding-top: 107px;
+        position: absolute;
+        z-index: -1;
+        width: 1310px;
+    }
+
+    .tabas {
+        width: 120px;
+        height: 60px;
+        background-color: #F6783F;
+        text-align: center;
+    }
+
+    .tabas p {
+        padding-top: 15px;
+        font-family: "Avenir LT Std 35 Light";
+        color: #ffffff;
+        font-size: 20px;
+    }
+
+    .trikampis {
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 0px 5px 120px;
+        border-color: transparent transparent #f6793f
+    }
+
+    .arrow {
+        width: 0px;
+        height: 0px;
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+        border-top: 20px solid #F6783F;
+        margin-left: 40px;
+    }
+
+    .juostele {
+        border: 2px solid #4C566B;
+        width: 1200px;
+        position: absolute;
+        z-index: -1;
+        left: 75px;
+        top: 190px
+    }
+
+    .rutuliukas {
+        width: 25px;
+        height: 25px;
+        background-color: #F6783F;
+        border: 3px solid #F6783F;
+        border-radius: 50%;
+        margin-left: 47.5px;
+        margin-top: 10px;
+    }
+
+    .Eilute {
+        position: absolute;
+        z-index: 1;
+        padding-top: 50px;
+    }
+
+    .lentele {
+        padding-top: 35px;
+        width: 180px;
+        font-family: "Avenir LT Std 35 Light";
+        text-align: center;
+        margin-left: 170px;
+        display: inline-block;
+    }
+
+    .lentele h6 {
+        padding-top: 25px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .lentele h2 {
+        font-size: 20px;
+    }
+
+    .visas {
+        padding-left: 30px;
+    }
+
+/*@media only screen  and (min-width : 680px) {
+
 }
