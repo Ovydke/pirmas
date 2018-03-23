@@ -1,7 +1,188 @@
 @font-face{
     font-family: "Avenir LT Std 35 Light" ;
     src: url('AvenirLTStd Light.otf'), url('AvenirLTStd Light.otf') format('otf');}
-/*@media only screen  and (min-width : 1200px) {*/
+
+
+.bg {
+    height: 421px;
+    background: url("IMG/heads.svg");
+    background-size: cover;
+}
+.bg h6 {
+    background: #F6783F;
+    line-height: 65px;
+    vertical-align: middle;
+    font-family: "Avenir LT Std 35 Light";
+    font-size: 30px;
+    color: #ffffff;
+    display: block;
+    padding-right: 90px;
+    padding-left: 60px;
+    max-width: 300px;
+    margin-top: 50px;
+}
+.bg h5 {
+    background: #F6783F;
+    line-height: 35px;
+    vertical-align: middle;
+    font-family: "Avenir LT Std 35 Light";
+    font-size: 15px;
+    color: #ffffff;
+    display: block;
+    padding-right: 90px;
+    padding-left: 60px;
+    max-width: 300px;
+}
+
+.Naujasavataras{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 10px solid #F6783F;
+    margin-top: 50px;
+    margin-left: 130px;
+}
+
+.kontaktai h4 {
+    padding-top: 30px;
+    font-family: "Avenir LT Std 35 Light";
+    font-size: 35px;
+    text-align: left;
+}
+.kontaktai h3 {
+    display: inline-block;
+    padding-left: 30px;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Avenir LT Std 35 Light";
+    vertical-align: middle;
+}
+.kontaktai i {
+    padding-top: 20px;
+    display: inline-block;
+
+}
+
+.iconos1 i {
+    background: #ffffff;
+    border-radius: 50%;
+    padding: 10px;
+    margin-left: 20px;
+    color: #4C566B;
+}
+.iconos1 {
+     text-align: right;
+     padding-top: 50px;
+     font-size: 35px;
+     padding-right: 50px;
+ }
+
+.fa-facebook-f{
+    padding-left: 17px !important;
+    padding-right: 17px !important;
+}
+.fa-linkedin{
+    padding-left: 13px !important;
+    padding-right: 13px !important;
+}
+.fa-dribbble{
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+}
+.fa-behance {
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+}
+
+.virsunike{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 400px 40px 0px;
+    border-color: transparent transparent #4C566B transparent;
+    margin-left: 45px;
+
+}
+.pilkas {
+    background-color: #4C566B;
+    width: 400px;
+    margin-left: 45px;
+}
+.orange{
+    width: 440px;
+    height: 80px;
+    background-color: #F6783F;
+    color: #ffffff;
+    box-shadow: 4px 3px 11px 0px rgba(0,0,0,0.61);
+    padding-top: 40px;
+    margin-left: -25px;
+    position: relative;
+    top: 20px;
+    text-align: left;
+}
+.orange h4 {
+    padding-left: 40px;
+    margin-top: -15px;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+.pilkas img {
+    margin-left: 45px;
+    margin-bottom: 20px;
+    display: inline-block;
+    justify-content: center;
+}
+.paveikslai {
+    margin-top: 50px;
+    width: 90%;
+    text-align: center;
+}
+
+.barai {
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+label {
+    font-family: "Avenir LT Std 35 Light";
+    color: #ffffff;
+    font-size: 20px;
+    display: block;
+    padding-bottom: 5px;
+    padding-top: 15px;
+    margin-left: 25px;
+}
+.progress {
+    height: 20px !important;
+    border-radius: unset !important;
+    background-color: #142028 !important;
+    width: 90%;
+    margin-left: 20px;
+}
+.progress-bar {
+    background-color: #374151 !important;
+}
+.apacia{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 40px 400px 0 0px;
+    border-color: #4C566B transparent transparent transparent;
+    margin-left: 45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
     h4 {
         font-family: "Avenir LT Std 35 Light" !important;
         text-transform: uppercase;
@@ -168,31 +349,9 @@
         padding-left: 10px;
     }
 
-    .barai {
-        width: 430px;
-        padding-left: 90px;
-        padding-top: 40px;
-        text-align: left;
-    }
 
-    label {
-        font-family: "Avenir LT Std 35 Light";
-        color: #ffffff;
-        font-size: 20px;
-        display: block;
-        padding-bottom: 5px;
-        padding-top: 10px;
-    }
 
-    .progress {
-        height: 25px !important;
-        border-radius: unset !important;
-        background-color: #142028 !important;
-    }
 
-    .progress-bar {
-        background-color: #374151 !important;
-    }
 
     .Lang {
         width: 100%;
